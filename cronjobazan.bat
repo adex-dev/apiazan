@@ -15,7 +15,8 @@ REM Tambahkan semua perubahan ke staging area
 git add .
 
 REM Buat commit dengan pesan
-git commit -m "Pesan commit Azan by bot %month%-%year% "
+
+git commit -m "Pesan commit Azan by bot !month!-!year!"
 
 REM Push perubahan ke remote repository
 git push origin main
